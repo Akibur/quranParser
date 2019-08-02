@@ -1,13 +1,14 @@
-import React from 'react';
-import './App.css';
+import React, {Component, Fragment} from 'react'
+import {Header, Footer} from '../../components/layouts'
 
-function App() {
-  return (
-   <div className="App">
-       <h1>Quran Parser</h1>
-    </div>
-    
-  );
+export default class App extends Component {
+    render() {
+        return (
+            <Fragment>
+                <Header/>
+                  
+                <Footer/>
+            </Fragment>
+        )
+    }
 }
-
-export default App;
