@@ -6,9 +6,9 @@ export default function Header() {
         <AppBar position="static">
             <Toolbar>
 
-                <Typography variant="h6">
+                <Typography style={{fontWeight:'bold'}} variant="h6">
                     Quran Parser
-                    <sub>beta</sub>
+                    <sub style={{fontSize:'12px'}} >beta</sub>
                 </Typography>
 
             </Toolbar>

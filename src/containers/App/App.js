@@ -1,13 +1,13 @@
 import React, {Component, Fragment} from 'react'
-import {Header, Footer} from '../../components/layouts'
-
+import {Header, Footer,Body} from '../../components/layouts'
+ 
 export default class App extends Component {
     render() {
         return (
             <Fragment>
                 <Header/>
-                  
-                <Footer/>
+                <Body/>
+                <Footer />
             </Fragment>
         )
     }
